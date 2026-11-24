@@ -1,0 +1,133 @@
+:root {
+    color: rgb(127, 34, 254);
+    --main-color: #8021FD;
+    --main-color-hover: #5f0ac8;
+    --secondary-color: #F0943A;
+    --bs-primary-rgb: 127, 34, 254;
+}
+.section-bg-color {
+    background-color: #F8F9FA;
+}
+.main-color {
+    color: var(--main-color);
+}
+
+.bg-main-color {
+    opacity: var(--bs-bg-opaciry);
+    background-color: var(--main-color);
+}
+
+
+
+body {
+    font-family: "Exo", sans-serif;
+}
+
+
+
+
+/* Start Navbar Section */
+
+
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+.nav-link {
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-block: 0;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid var(--main-color);
+    color: var(--main-color);
+}
+
+
+.city-img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+
+/* End NavBar Section */
+
+/* Start Hero Section */
+
+
+
+.hero {
+    background: linear-gradient(#4d179acc, #59168bcc),
+        url('../IMAGES/hero-bg-img.png') center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    border: var(--main-color);
+}
+
+.btn-primary:hover {
+    background: var(--main-color-hover);
+}
+
+.input-group-text {
+    border-right: none;
+}
+
+
+.form-control {
+    border-left: none;
+}
+
+/* Start Featured Properties Section */
+
+.section-line {
+    width: 64px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #8021fd);
+}
+
+.section-line-end {
+    background: linear-gradient(270deg, transparent, #8021fd);
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #8021fd, #ff9f1c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* End Featured Properties Section */
+
+/*  Start Our Services Section */
+
+
+.our-services i {
+    background-color: #F3E8FF;
+}
+
+.our-services ul i {
+    background-color: transparent;
+}
+
+/*  End Our Services Section */
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* footer */
+
